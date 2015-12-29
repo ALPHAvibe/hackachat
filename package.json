@@ -1,8 +1,8 @@
-{
-  "name": "hackchat",
+b{
+  "name": "hackachat",
   "version": "0.0.1",
   "description": "Hackathon Chat",
-  "main": "index.js",
+  "main": "controllers/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
