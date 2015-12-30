@@ -13,4 +13,4 @@ RUN cd /src; npm install
 COPY . /src
 
 EXPOSE  3000
-CMD ["node", "/src/index.js"]
+CMD ["node", "/src/main.js"]
