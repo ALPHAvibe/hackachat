@@ -9,8 +9,5 @@ RUN     yum install -y nodejs npm
 COPY . /src
 RUN cd /src; npm install
 
-# Bundle app source
-COPY . /src
-
 EXPOSE  3000
 CMD ["node", "/src/index.js"]
